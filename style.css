@@ -1,0 +1,68 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: rgba(220, 220, 220, 0.255);
+    /* text-align: center; */
+}
+
+label {
+    color: grey;
+    margin-left: 7%;
+}
+
+input {
+    width: 90%;
+    height: 30px;
+}
+
+.formParent {
+    background-color: white;
+    width: 30%;
+    height: 75vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    margin-top: 5%;
+}
+
+.formContet {
+    width: 90%;
+    /* margin: auto; */
+    height: 100%;
+}
+
+.inputs {
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+}
+
+#submit {
+    width: 80%;
+    background-color: cornflowerblue;
+    height: 30px;
+}
+
+p {
+    color: red;
+}
+
+.inputBorder {
+    border: 3px solid green;
+}
+
+.errorBorder {
+    border: 3px solid red;
+}
+
+input:active {
+    border: 3px solid green;
+}
